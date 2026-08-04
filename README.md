@@ -1,211 +1,103 @@
 # 🧠 Mental Health in the Workplace – Exploratory Data Analysis
 
-An end-to-end Exploratory Data Analysis (EDA) project on a large-scale Mental Health Survey dataset to understand how demographic, occupational, lifestyle, and family-related factors influence mental health and treatment-seeking behavior.
-
-The project focuses on transforming raw survey data into meaningful insights through data cleaning, preprocessing, visualization, and structured analysis.
-
----
-
 ## 📌 Project Overview
 
-Mental health is one of the most important yet often overlooked aspects of workplace well-being. Organizations need a better understanding of the factors that influence stress, mental health awareness, and willingness to seek professional treatment.
-
-This project performs a structured Exploratory Data Analysis on **292,405 survey responses** to identify patterns related to:
-
-- Mental health treatment
-- Family history
-- Occupation
-- Stress levels
-- Mood swings
-- Indoor lifestyle
-- Social interaction
-- Gender
-
-The notebook follows a complete EDA workflow—from understanding the data to drawing actionable insights.
+This project explores a Mental Health Survey dataset using Exploratory Data Analysis (EDA) to identify patterns related to workplace mental health. The analysis focuses on understanding how demographic, occupational, lifestyle, and family-related factors influence stress levels and treatment-seeking behavior.
 
 ---
 
 ## 🎯 Objectives
 
-- Explore the structure and quality of the dataset.
-- Clean inconsistent and duplicate records.
-- Standardize categorical variables.
-- Perform univariate, bivariate, and multivariate analysis.
-- Identify factors associated with treatment-seeking behavior.
-- Generate insights using statistical visualizations.
+* Explore the dataset and understand its structure.
+* Clean and preprocess the data.
+* Perform univariate, bivariate, and multivariate analysis.
+* Identify factors associated with mental health treatment.
+* Generate meaningful insights through data visualization.
 
 ---
 
-## 📊 Dataset Information
+## 📊 Dataset
 
-- **Rows:** 292,405
-- **Columns:** 17
-- **Data Type:** Categorical survey data
-- **Domain:** Mental Health
+* **Records:** 292,405
+* **Features:** 17
+* **Domain:** Mental Health
 
----
-
-## 🧹 Data Cleaning & Preprocessing
-
-The following preprocessing steps were performed:
-
-- Removed duplicate records.
-- Identified missing values.
-- Standardized inconsistent gender labels into:
-  - Male
-  - Female
-  - Other
-- Ignored the Timestamp column because it contained inconsistent date formats and was not required for the analysis.
-- Verified data quality before visualization.
+> **Note:** The dataset is not included in this repository due to its large size.
 
 ---
 
-## 📈 Exploratory Data Analysis
+## 🧹 Data Preprocessing
 
-### 1️⃣ Univariate Analysis
-
-Analyzed the distribution of individual variables including:
-
-- Gender
-- Treatment
-- Growing Stress
-- Family History
-- Occupation
-
-Key observations include:
-
-- Majority of respondents are male.
-- Treatment responses are almost evenly split.
-- Many respondents selected "Maybe" for stress.
-- Most respondents have no family history of mental illness.
-- Housewives, students, and corporate employees form a large portion of the dataset.
+* Removed duplicate records.
+* Checked for missing values.
+* Standardized inconsistent gender labels.
+* Excluded the Timestamp column from the analysis.
 
 ---
 
-### 2️⃣ Bivariate Analysis
+## 📈 Analysis Performed
 
-Studied relationships between two variables.
-
-Analysis includes:
-
-- Family History vs Treatment
-- Days Indoors vs Growing Stress
-- Occupation vs Mood Swings
-- Social Weakness vs Mental Health
-- Gender vs Mental Health Discussion
-
-Major findings:
-
-- Family history strongly influences treatment-seeking.
-- Staying indoors alone does not explain stress levels.
-- Students exhibit comparatively higher mood swings.
-- Most people are uncomfortable discussing mental health regardless of gender.
+* Univariate Analysis
+* Bivariate Analysis
+* Multivariate Analysis
+* Data Visualization
 
 ---
 
-### 3️⃣ Multivariate Analysis
+## 🔍 Key Insights
 
-Investigated interactions among multiple variables using heatmaps and grouped visualizations.
-
-Key analyses include:
-
-- Occupation × Family History × Treatment
-- Family History × Habit Changes × Growing Stress
-
-Major findings:
-
-- Family history has a stronger influence on treatment than occupation.
-- Individuals unsure about changes in their habits tend to report higher stress.
-- Mental health history and behavioral changes together explain stress patterns better than occupation alone.
-
----
-
-## 📌 Key Insights
-
-- Family history is the strongest predictor of treatment-seeking behavior.
-- Occupation has relatively little impact on whether individuals seek treatment.
-- Students show higher levels of mood swings than most occupational groups.
-- Stress cannot be explained solely by time spent indoors.
-- Mental health discussions remain uncomfortable across all genders.
-- Behavioral changes combined with family history provide better insight into stress growth.
+* Family history has a strong relationship with treatment-seeking behavior.
+* Students show comparatively higher mood swings than other occupations.
+* Occupation has less influence on treatment than family history.
+* Mental health discussions remain uncomfortable across most respondents.
+* Behavioral changes combined with family history provide better insight into stress levels.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 Mental-Health-EDA/
 │
 ├── Mental_Health_EDA.ipynb
-├── images/
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── images/
 ```
 
 ---
 
-## ▶️ How to Run
+## 📷 Sample Visualizations
 
-Clone the repository
 
-```bash
-git clone https://github.com//Monika1870/Mental-Health-EDA.git
-```
 
-Install dependencies
+![Gender Distribution](images/gender_distribution.png)
 
-```bash
-pip install -r requirements.txt
-```
+![Treatment Distribution](images/treatment_distribution.png)
 
-Launch Jupyter Notebook
+![Family History vs Treatment](images/family_history_vs_treatment.png)
 
-```bash
-jupyter notebook
-```
+![Occupation vs Mood Swings](images/occupation_vs_mood_swings.png)
 
-Open:
+![Days indoors vs stress](images/days_indoors_vs_stress.png)
 
-```
-Mental_Health_EDA.ipynb
-```
 
 ---
 
-## 📷 Visualizations
-
-The notebook includes multiple visualizations such as:
-
-- Count plots
-- Bar charts
-- Heatmaps
-- Cross-tab visualizations
-- Distribution analysis
-
-These visualizations help uncover hidden relationships within the survey responses.
-
----
-
-## 🚀 Future Improvements
-
-- Build a predictive model for treatment recommendation.
-- Develop an interactive Power BI or Tableau dashboard.
-- Explore feature importance using Machine Learning models.
-
----
-
-## 👩 Author
+## 👩‍💻 Author
 
 **Monika Gautam**
+
+
 
