@@ -148,7 +148,6 @@ Major findings:
 Mental-Health-EDA/
 │
 ├── Mental_Health_EDA.ipynb
-├── Mental Health.csv
 ├── images/
 ├── README.md
 └── requirements.txt
