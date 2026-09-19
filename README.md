@@ -1,12 +1,12 @@
-# 🧠 Mental Health in the Workplace – Exploratory Data Analysis
+# Mental Health in the Workplace – Exploratory Data Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project explores a Mental Health Survey dataset using Exploratory Data Analysis (EDA) to identify patterns related to workplace mental health. The analysis focuses on understanding how demographic, occupational, lifestyle, and family-related factors influence stress levels and treatment-seeking behavior.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Explore the dataset and understand its structure.
 * Clean and preprocess the data.
@@ -16,7 +16,7 @@ This project explores a Mental Health Survey dataset using Exploratory Data Anal
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * **Records:** 292,405
 * **Features:** 17
@@ -26,7 +26,7 @@ This project explores a Mental Health Survey dataset using Exploratory Data Anal
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 * Removed duplicate records.
 * Checked for missing values.
@@ -35,7 +35,7 @@ This project explores a Mental Health Survey dataset using Exploratory Data Anal
 
 ---
 
-## 📈 Analysis Performed
+## Analysis Performed
 
 * Univariate Analysis
 * Bivariate Analysis
@@ -44,7 +44,7 @@ This project explores a Mental Health Survey dataset using Exploratory Data Anal
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 * Family history has a strong relationship with treatment-seeking behavior.
 * Students show comparatively higher mood swings than other occupations.
@@ -54,7 +54,7 @@ This project explores a Mental Health Survey dataset using Exploratory Data Anal
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -65,7 +65,7 @@ This project explores a Mental Health Survey dataset using Exploratory Data Anal
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 Mental-Health-EDA/
@@ -78,7 +78,7 @@ Mental-Health-EDA/
 
 ---
 
-## 📷 Sample Visualizations
+## Sample Visualizations
 
 
 
@@ -95,7 +95,7 @@ Mental-Health-EDA/
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Monika Gautam**
 
